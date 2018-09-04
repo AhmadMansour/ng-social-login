@@ -1,6 +1,6 @@
 {
   "name": "ng-social-login",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Angularjs Social Authentication for AngularJS application. Based on source Heresy Infotech Private Limited https://github.com/heresy/angularjs-social-login",
   "main": "ng-social-login.js",
   "scripts": {
