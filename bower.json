@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "author": "Auban le Grelle <auban@viamonkey.com>",
   "homepage": "https://github.com/RedCastor/ng-social-login",
-  "description": "Angularjs Social Authentication for AngularJS application. Based on source Heresy Infotech Private Limited https://github.com/heresy/angularjs-social-login",
+  "description": "Angularjs Social Authentication for AngularJS application. Based on source https://github.com/heresy/angularjs-social-login",
   "license": "MIT",
   "keywords": [
     "login",

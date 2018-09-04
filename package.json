@@ -1,7 +1,7 @@
 {
   "name": "ng-social-login",
   "version": "3.0.0",
-  "description": "Angularjs Social Authentication for AngularJS application. Based on source Heresy Infotech Private Limited https://github.com/heresy/angularjs-social-login",
+  "description": "Angularjs Social Authentication for AngularJS application. Based on source https://github.com/heresy/angularjs-social-login",
   "main": "ng-social-login.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
