@@ -1,0 +1,33 @@
+{
+  "name": "ng-social-login",
+  "version": "1.0.0",
+  "author": "Auban le Grelle <auban@viamonkey.com>",
+  "homepage": "https://github.com/RedCastor/ng-social-login",
+  "description": "AngularJS Social Login Module is a simple client side authentication module which helps to authenticate your application using Google/Facebook/LinkedIN. Based on source Heresy Infotech Private Limited https://github.com/heresy/angularjs-social-login",
+  "license": "MIT",
+  "keywords": [
+    "login",
+    "social",
+    "google",
+    "facebook",
+    "signin",
+    "signup",
+    "angular"
+  ],
+  "main": [
+    "ng-social-login.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "**/*.txt",
+    ".jscsrc",
+    ".jshintrc",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.6.x"
+  }
+}

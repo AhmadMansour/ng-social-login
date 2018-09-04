@@ -1,26 +1,22 @@
 {
-  "name": "angularjs-social-login",
-  "version": "2.6.1",
-  "description": "Social Authentication for AngularJS application.",
-  "main": "angularjs-social-login.js",
+  "name": "ng-social-login",
+  "version": "1.0.0",
+  "description": "Angularjs Social Authentication for AngularJS application. Based on source Heresy Infotech Private Limited https://github.com/heresy/angularjs-social-login",
+  "main": "ng-social-login.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/heresy/angularjs-social-login.git"
+    "url": "git@github.com:RedCastor/ng-social-login.git"
   },
-  "author": "Heresy Infotech Private Limited",
-  "contributors": [
-    {"name": "Srinivas K", "email": "kpsrinivas@heresy.in"},
-    {"name": "Jayaram Kurapati", "url": "https://www.jayaramk.in", "email": "reachme@jayaramk.in"}
-  ],
+  "author": "Auban le Grelle <auban@viamonkey.com>",
   "dependencies": {
-    "angular": "~1.6.1"
+    "angular": "~1.6.x"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heresy/angularjs-social-login/issues"
+    "url": "https://github.com/RedCastor/ng-social-login/issues"
   },
-  "homepage": "https://github.com/heresy/angularjs-social-login#readme"
+  "homepage": "https://github.com/RedCastor/ng-social-login#readme"
 }
