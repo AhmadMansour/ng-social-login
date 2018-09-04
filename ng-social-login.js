@@ -253,24 +253,26 @@
 
 				switch(_get_provider()) {
 					case "google":
-						gAuth.signOut().then(function () {
-							_set_provider();
-							$rootScope.$broadcast('event:social-sign-out-success', "success");
-						});
+                        if (gAuth) {
+
+                            gAuth.signOut().then(function () {
+                                $rootScope.$broadcast('event:social-sign-out-success', "success");
+                            });
+                        }
 						break;
 					case "linkedIn":
 						IN.User.logout(function(){
-							_set_provider();
 							$rootScope.$broadcast('event:social-sign-out-success', "success");
 						}, {});
 						break;
 					case "facebook":
 						FB.logout(function(res){
-							_set_provider();
 							$rootScope.$broadcast('event:social-sign-out-success', "success");
 						});
 						break;
 				}
+
+                _set_provider();
 			},
 			setProvider: _set_provider,
 			getProvider: _get_provider
